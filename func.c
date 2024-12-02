@@ -22,7 +22,7 @@ void print_ans(int* res, int size){
     for (int i = 0; i < size; i++){
         printf("Ответ №%d: %d\n", i+1, res[i]);
     }
-}
+} 
 void print_ans_str(int* res, int size, int k){
     for (int i = 0; i < size; i++){
         int symb = res[i] - k;
