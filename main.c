@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <limits.h>
 #include "func.h"
-
 int main(int argc, char** argv){
     if (argc == 1){
         printf("No arguments found\n");
@@ -74,4 +69,3 @@ int main(int argc, char** argv){
     free(results);
     return 0;
 }
-

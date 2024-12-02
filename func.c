@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <limits.h>
+#include "func.h"
 int get_ans(int l, int r, char o){
     switch(o){
         case '+':
@@ -18,7 +17,7 @@ int get_ans(int l, int r, char o){
             printf("ERROR: unknown operator");
                 return INT_MIN;
     }
-
+}
 void print_ans(int* res, int size){
     for (int i = 0; i < size; i++){
         printf("Ответ №%d: %d\n", i+1, res[i]);
@@ -38,5 +37,6 @@ void print_ans_str(int* res, int size, int k){
         printf("%c", symb);
     }
     printf("\n");
-}}
+}
+
 
